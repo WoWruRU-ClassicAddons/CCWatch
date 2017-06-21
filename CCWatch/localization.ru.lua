@@ -1,0 +1,300 @@
+if (GetLocale() == "ruRU") then
+
+CCWATCH_VERSION = "11200.3"
+CCWATCH_FULLVERSION = "CCWatch вер."..CCWATCH_VERSION
+
+-- Version : Russian ( by Maus )
+
+CCWATCH_DESCRIPTION = "Позволяет контролировать наложенные на врагов бафы и дебафы."
+
+CCWATCH_PROFILE_TEXT = "Профиль: "
+
+CCWATCH_EFFECT = "Эффект"
+CCWATCH_NAME = "Название"
+CCWATCH_DURATION = "Длительность"
+CCWATCH_RESET = "Новый"
+CCWATCH_ADD = "Добавить"
+CCWATCH_MODIFY = "Модифицировать"
+CCWATCH_EDIT = "Редактировать"
+CCWATCH_DELETE = "Удалить"
+CCWATCH_LEARN_DELETE_PROMPT = "Вы уверены что хотите удалить эффект "
+CCWATCH_REMOVED_NOTICE = "Удалить эффект способности : "
+CCWATCH_TYPE = "Тип"
+CCWATCH_GROUP = "Группа"
+CCWATCH_DR = "Димишинг"
+CCWATCH_MONITOR = "Монитор"
+CCWATCH_WARN = "Предупреждение"
+CCWATCH_ADDEDMODIFIED = " добавлен/модифицирован."
+
+CCWATCH_OPTIONS_BARS_TAB = "Полосы"
+CCWATCH_OPTIONS_EFFECTS_TAB = "Мониторинг"
+CCWATCH_OPTIONS_LEARN_TAB = "Способности"
+
+CCWATCH_OPTIONS_TITLE = "CCWatch опции"
+CCWATCH_OPTIONS_TRANS = "Прозрачность"
+CCWATCH_OPTIONS_SCALE = "Масштаб"
+CCWATCH_OPTIONS_DONE = "Готово"
+CCWATCH_OPTIONS_UNLOCK = "Разблокировать"
+CCWATCH_OPTIONS_WIDTH = "Ширина"
+CCWATCH_OPTIONS_INVERT = "Инвертировать"
+CCWATCH_OPTIONS_LEADINGTIMER = "Таймер слева"
+CCWATCH_OPTIONS_ARCANIST = "Бонус комплекта Тайной магии"
+
+CCWATCH_OPTIONS_WARN_APPLIED = "Прикладной"
+CCWATCH_OPTIONS_WARN_FADED = "Скрытый"
+CCWATCH_OPTIONS_WARN_BROKEN = "Сломан"
+CCWATCH_OPTIONS_WARN_LOWTIME = "Мало времени"
+
+CCWATCH_OPTIONS_MAGE = "Маг"
+CCWATCH_OPTIONS_PRIEST = "Жрец"
+CCWATCH_OPTIONS_DRUID = "Друид"
+CCWATCH_OPTIONS_HUNTER = "Охотник"
+CCWATCH_OPTIONS_PALADIN = "Паладин"
+CCWATCH_OPTIONS_WARLOCK = "Чернокнижник"
+CCWATCH_OPTIONS_WARRIOR = "Воин"
+CCWATCH_OPTIONS_ROGUE = "Разбойник"
+CCWATCH_OPTIONS_SHAMAN = "Шаман"
+CCWATCH_OPTIONS_MISC = "Другие"
+
+CCWATCH_OPTION_STYLE_CURRENT = "Текущая цель"
+CCWATCH_OPTION_STYLE_RECENT = "Недавние цели"
+CCWATCH_OPTION_STYLE_ALL = "Любое существо/враг"
+
+CCWATCH_OPTION_GROWTH_OFF = "Приоритет - выкл"
+CCWATCH_OPTION_GROWTH_UP = "Приоритет вниз->вверх "
+CCWATCH_OPTION_GROWTH_DOWN = "Приоритет вверх->вниз"
+
+CCWATCH_OPTION_TIMERS_OFF = "Откл. таймеры"
+CCWATCH_OPTION_TIMERS_ON = "Вкл. таймеры"
+CCWATCH_OPTION_TIMERS_REVERSE = "Обратный отсчет"
+
+CCWATCH_OPTION_DR_NEVER = "Никогда"
+CCWATCH_OPTION_DR_MOBPLAYERS = "Существо+игрок"
+CCWATCH_OPTION_DR_PLAYERS = "Игрок"
+
+CCWATCH_OPTIONS_MONITOR_CC = "Монитор CC"
+CCWATCH_OPTIONS_MONITOR_DEBUFF = "Монитор дебафов"
+CCWATCH_OPTIONS_MONITOR_BUFF = "Монитор бафов"
+
+CCWATCH_OPTIONS_COLOROVERTIME = "Использовать окрас на таймере"
+CCWATCH_OPTIONS_USECOLOR = "Задать цвет"
+
+CCWATCH_WARN_EMOTE = "объявляет о ";
+CCWATCH_WARN_LOWTIME = "[%s] более не будет получать [%s] в течение %d сек."
+CCWATCH_WARN_APPLIED = "[%s] теперь получает [%s]."
+CCWATCH_WARN_FADED = "[%s] более не получает [%s] (исчез)."
+CCWATCH_WARN_BROKEN = "[%s] более не получает [%s] (сломан)."
+
+-- Priest
+CCWATCH_SHACKLE = "Сковывание нежити"
+CCWATCH_PSYCHICSCREAM = "Ментальный крик"
+CCWATCH_BLACKOUT = "Затмение"
+CCWATCH_SHADOWWORDPAIN = "Слово Тьмы: Боль"
+CCWATCH_POWERWORDSHIELD = "Слово силы: Щит"
+CCWATCH_DEVOURINGPLAGUE = "Всепожирающая чума"
+CCWATCH_WEAKENEDSOUL = "Ослабленная душа"
+CCWATCH_RENEW ="Обновление"
+CCWATCH_HOLYFIRE = "Священный огонь"
+CCWATCH_POWERINFUSION = "Придание сил"
+
+-- Mage
+CCWATCH_POLYMORPH = "Превращение"
+CCWATCH_FROSTNOVA = "Кольцо льда"
+CCWATCH_FROSTBITE = "Обморожение"
+CCWATCH_ICEBLOCK = "Ледяная глыба"
+CCWATCH_FROSTBOLT = "Ледяная стрела"
+CCWATCH_CONEOFCOLD = "Конус холода"
+CCWATCH_COUNTERSPELL = "Антимагия - немота"
+CCWATCH_FIREBALL = "Огненный шар"
+CCWATCH_PYROBLAST = "Огненная глыба"
+CCWATCH_IGNITE = "Возгорание"
+CCWATCH_FLAMESTRIKE = "Огненный столб"
+CCWATCH_BLASTWAVE = "Взрывная волна"
+CCWATCH_FROSTARMOR = "Морозный доспех"
+CCWATCH_DETECTMAGIC = "Распознавание магии"
+CCWATCH_EVOCATION = "Прилив сил"
+CCWATCH_ARCANEPOWER = "Мощь тайной магии"
+
+-- Paladin
+CCWATCH_HOJ = "Молот правосудия"
+CCWATCH_TURNUNDEAD = "Изгнание нежити"
+CCWATCH_REPENTANCE = "Покаяние"
+CCWATCH_DIVINESHIELD = "Божественный щит"
+CCWATCH_BOPROTECTION = "Благословение защиты"
+CCWATCH_BOFREEDOM = "Благословение cвободы"
+
+-- Warlock
+CCWATCH_FEAR = "Страх"
+CCWATCH_BANISH = "Изгнание"
+CCWATCH_SEDUCE = "Соблазн"
+CCWATCH_HOWLOFTERROR = "Вой ужаса"
+CCWATCH_DEATHCOIL = "Лик смерти"
+CCWATCH_IMMOLATE = "Жертвенный огонь"
+CCWATCH_CORRUPTION = "Порча"
+CCWATCH_CURSEOFRECKLESSNESS = "Проклятие безрассудства"
+CCWATCH_CURSEOFAGONY = "Проклятие агонии"
+CCWATCH_CURSEOFWEAKNESS = "Проклятие слабости"
+CCWATCH_CURSEOFTONGUES = "Проклятие косноязычия"
+CCWATCH_CURSEOFSHADOW = "Проклятие Тьмы"
+CCWATCH_CURSEOFELEMENTS = "Проклятие стихий"
+CCWATCH_CURSEOFEXHAUSTION = "Проклятие изнеможения"
+CCWATCH_CURSEOFDOOM = "Проклятие рока"
+CCWATCH_SIPHONLIFE = "Вытягивание жизни"
+CCWATCH_IMPROVEDSHADOWBOLT = "Улучшенная стрела Тьмы"
+CCWATCH_SACRIFICE = "Жертвоприношение"
+CCWATCH_SPELLSTONE = "Камень чар"
+CCWATCH_SPELLLOCK = "Запрет чар"
+
+
+-- Druid
+CCWATCH_HIBERNATE = "Спячка"
+CCWATCH_ROOTS = "Гнев деревьев"
+CCWATCH_POUNCE = "Наскок"
+CCWATCH_BASH = "Оглушить"
+CCWATCH_FERALCHARGE = "Звериная атака"
+CCWATCH_IMPSTARFIRE = "Улучшенный звездный огонь"
+CCWATCH_MOONFIRE = "Лунный огонь"
+CCWATCH_INSECTSWARM = "Рой насекомых"
+CCWATCH_NATURESGRASP = "Хватка природы"
+CCWATCH_REJUVENATION = "Омоложение"
+CCWATCH_DASH = "Порыв"
+CCWATCH_FAERIEFIRE = "Волшебный огонь"
+CCWATCH_FAERIEFIREFERAL = "Волшебный огонь (зверь)"
+CCWATCH_INSECTSWARM = "Рой насекомых"
+CCWATCH_INNERVATE = "Озарение"
+CCWATCH_BARKSKIN = "Дубовая кожа"
+CCWATCH_REGROWTH = "Восстановление"
+CCWATCH_FREGEN = "Неистовое восстановление"
+
+
+-- Hunter
+CCWATCH_FREEZINGTRAP = "Эффект замораживающей ловушки"
+CCWATCH_FREEZINGTRAP_SPELL = "Замораживающая ловушка"
+CCWATCH_SCAREBEAST = "Отпугивание зверя"
+CCWATCH_IMPCS = "Улучшенный контузящий выстрел"
+CCWATCH_SCATTERSHOT = "Дезориентирующий выстрел"
+CCWATCH_INTIMIDATION = "Устрашение"
+CCWATCH_COUNTERATTACK = "Контратака"
+CCWATCH_WYVERNSTING = "Укус виверны"
+CCWATCH_IMPROVEDWINGCLIP = "Безжалостно подрезать крылья"
+CCWATCH_ENTRAPMENT = "Удержание"
+CCWATCH_SERPENTSTING = "Укус змеи"
+CCWATCH_DETERRENCE = "Сдерживание"
+CCWATCH_RAPIDFIRE = "Быстрая стрельба"
+
+-- Warrior
+CCWATCH_INTERCEPT = "Перехват - оглушение"
+CCWATCH_MACESPE = "Специализация на дробящем оружии"
+CCWATCH_IMPHAMSTRING = "Улучшенное подрезание сухожилий"
+CCWATCH_INTIMIDATINGSHOUT = "Устрашающий крик"
+CCWATCH_IMPREVENGE = "Реванш - оглушение"
+CCWATCH_CONCUSSIONBLOW = "Оглушающий удар"
+CCWATCH_BERSERKERRAGE = "Ярость берсерка"
+CCWATCH_BLOODRAGE = "Кровавая ярость"
+CCWATCH_REND = "Кровопускание"
+CCWATCH_DISARM = "Разоружение"
+CCWATCH_LASTSTAND = "Ни шагу назад"
+CCWATCH_RETALIATION = "Возмездие"
+CCWATCH_SHIELDWALL = "Глухая оборона"
+CCWATCH_DEATHWISH = "Жажда смерти"
+CCWATCH_IMPSHIELDBASH = "Удар щитом - немота"
+CCWATCH_MORTALSTRIKE = "Смертельный удар"
+CCWATCH_RECKLESSNESS = "Безрассудство"
+CCWATCH_HAMSTRING = "Подрезать сухожилия"
+
+--Rogue
+CCWATCH_GOUGE = "Парализующий удар"
+CCWATCH_BLIND = "Ослепление"
+CCWATCH_KS = "Удар по почкам"
+CCWATCH_CS = "Подлый трюк"
+CCWATCH_SAP = "Ошеломление"
+CCWATCH_RUPTURE = "Рваная рана"
+CCWATCH_GAROTTE = "Гаррота"
+CCWATCH_RIPOSTE = "Ответный удар"
+CCWATCH_IMPROVEDKICK = "Пинок - немота"
+CCWATCH_ADRENALINERUSH = "Выброс адреналина"
+CCWATCH_EVASION = "Ускользание"
+CCWATCH_ROGUESPRINT = "Спринт"
+CCWATCH_BLADEFLURRY = "Шквал клинков"
+CCWATCH_CRIPPLINGP = "Калечащий яд"
+CCWATCH_DEADLYP = "Смертельный яд"
+
+-- Shaman
+CCWATCH_FROSTSHOCK = "Ледяной шок"
+CCWATCH_FLAMESHOCK = "Огненный шок"
+CCWATCH_FROSTBRANDWEAPON = "Оружие ледяного клейма"
+CCWATCH_STORMSTRIKE = "Удар бури"
+
+-- Miscellaneous
+CCWATCH_WARSTOMP = "Громовая поступь"
+CCWATCH_SLEEP = "Сон"
+CCWATCH_NETOMATIC = "Сетестрел"
+CCWATCH_ROCKETHELM = "Безрассудная атака"
+
+CCWATCH_WOTF = "Воля Отрекшихся"
+CCWATCH_PERCEPTION = "Внимательность"
+
+CCWATCH_RANK = "уровень"
+CCWATCH_DETECTED = "- обнаружен"
+CCWATCH_NOTDETECTED = "- не обнаружен"
+
+CCWATCH_ENABLED = "CCWatch включен"
+CCWATCH_DISABLED = "CCWatch отключен"
+
+CCWATCH_LOCKED = "CCWatch - заблокирован"
+CCWATCH_UNLOCKED = "CCWatch - разблокирован"
+
+CCWATCH_INVERSION_ON = "CCWatch инверсия полос - вкл"
+CCWATCH_INVERSION_OFF = "CCWatch инверсия полос - откл"
+
+CCWATCH_STYLE_CURRENT = "Мониторинг только текущей цели"
+CCWATCH_STYLE_RECENT = "Мониторинг последних целей"
+CCWATCH_STYLE_ALL = "Мониторинг ВСЕХ целей"
+
+CCWATCH_GROW_OFF = "CCWatch приоритет полос - откл"
+CCWATCH_GROW_UP = "CCWatch приоритет полос - вверх"
+CCWATCH_GROW_DOWN = "CCWatch приоритет полос - вниз"
+
+CCWATCH_TIMERS_OFF = "Таймер - откл"
+CCWATCH_TIMERS_ON = "Таймер - вкл"
+CCWATCH_TIMERS_REVERSE = "Обратный отсчет"
+
+CCWATCH_ARCANIST_ON = "Набор Тайной магии активен (+15 сек до "..CCWATCH_POLYMORPH.." заклинания)"
+CCWATCH_ARCANIST_OFF = "Набор Тайной магии - откл"
+
+CCWATCH_COLOROVERTIME_ON = "Окрас полосы времени – вкл"
+CCWATCH_COLOROVERTIME_OFF = "Окрас полосы времени – откл"
+CCWATCH_LEADINGTIMER_ON = "Позиция таймера: слева"
+CCWATCH_LEADINGTIMER_OFF = "Позиция таймера: справа"
+CCWATCH_WARNCC_SETTO = "Предупреждение выхода установлено на: "
+CCWATCH_WARNCC_CUSTOM = "Пользовательские настройки cc используют (стандартно EMOTE (эмоция), SAY (сказать), PARTY (группа), RAID (рейд), YELL (крик) ): "
+CCWATCH_WARN_DISABLED = "Оповещения в чат - откл"
+CCWATCH_WARN_ENABLED = "Оповещения в чат - вкл"
+
+CCWATCH_SCALE = "CCWatch Масштаб установлен на "
+
+CCWATCH_WIDTH = "CCWatch Ширина установлена на "
+
+CCWATCH_ALPHA = "CCWatch Прозрачность установлена на "
+
+CCWATCH_LOADED = "CCWATCH Загружен - Используйте: /ccw (c)Elwen&phoenixfire2001"
+
+CCWATCH_HELP1  = " : Используйте - /ccw option"
+CCWATCH_HELP2  = "options:"
+CCWATCH_HELP3  = " on     : Включить CCWatch"
+CCWATCH_HELP4  = " off    : Отключить CCWatch"
+CCWATCH_HELP5  = " lock   : Блокировать CCWatch"
+CCWATCH_HELP6  = " unlock : Позволяет перемещать CCWatch"
+CCWATCH_HELP7  = " config : Показать меню настроек!"
+CCWATCH_HELP8  = " print  : Вывести текущие настройки"
+CCWATCH_HELP9  = " invert : Инвертировать заполнение таймера"
+CCWATCH_HELP10 = " scale  : Масштабировать CCWatch, используйте 0.25 - 3.0"
+CCWATCH_HELP11 = " width  : Установить ширину полосы, используйте 50 - 300"
+CCWATCH_HELP12 = " alpha  : Установить прозрачность полосы, используйте 0 - 1"
+CCWATCH_HELP13 = " grow   : Установить систему приоритетов полос: increasing (увел), decreasing (уменьш) или off (откл)."
+CCWATCH_HELP14 = " u      : Обновить уровни улучшенных навыков"
+CCWATCH_HELP15 = " timers : Установить отображение таймера off (откл), on(отсчет вверх) или rev(обратный отсчет)"
+CCWATCH_HELP16 = " warn   : enable(вкл)/disable(выкл) предупреждения в чат"
+CCWATCH_HELP17 = " warncc : Установить какие каналы использовать (EMOTE (эмоция), SAY (сказать), PARTY (группа), RAID (рейд), YELL (крик) или пользовательские)"
+
+end

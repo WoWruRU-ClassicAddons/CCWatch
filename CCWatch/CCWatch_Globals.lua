@@ -7,6 +7,7 @@ function QuickLocalize(str)
 -- not fail proof if ever it occurs (should be a more clever function, and return found arguments order)
 	str = string.gsub(str, ".%$", "");
 	str = string.gsub(str, "%%s", "\(.+\)");
+	str = string.gsub(str, "-", "%%-");
 	return str;
 end
 

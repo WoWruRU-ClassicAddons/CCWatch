@@ -1,7 +1,8 @@
-#
 ## Interface: 11200
 ## Title: CCWatch 11200.3
+## Title-ruRU: CCWatch
 ## Notes: Displays a progress bar for any class CCs, Debuffs, Buffs and corresponding Durations
+## Notes-ruRU: Отображает полосу с длительностью дебафов, бафов и продолжительность других эффектов.
 ## Author: Elwen+phoenixfire2001
 ## SavedVariables: CCWatch_Save
 ## OptionalDeps: myAddOns
